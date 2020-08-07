@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [REgressionSuite]">
+  <test thread-count="5" name="Functional Test(failed)">
+    <classes>
+      <class name="regression.TestCase1">
+        <methods>
+          <include name="closeDB"/>
+          <include name="Launchbrowser"/>
+          <include name="doLogin"/>
+          <include name="Closebrowser"/>
+          <include name="doUserRegister"/>
+          <include name="createDB"/>
+          <include name="fourthTest"/>
+        </methods>
+      </class> <!-- regression.TestCase1 -->
+    </classes>
+  </test> <!-- Functional Test(failed) -->
+  <test thread-count="5" name="Validate Titles Test(failed)">
+    <classes>
+      <class name="TestCases.TestCase2">
+        <methods>
+          <include name="validateTitles"/>
+        </methods>
+      </class> <!-- TestCases.TestCase2 -->
+      <class name="regression.TestCase1">
+        <methods>
+          <include name="closeDB"/>
+          <include name="Launchbrowser"/>
+          <include name="doLogin"/>
+          <include name="Closebrowser"/>
+          <include name="doUserRegister"/>
+          <include name="createDB"/>
+          <include name="fourthTest"/>
+        </methods>
+      </class> <!-- regression.TestCase1 -->
+    </classes>
+  </test> <!-- Validate Titles Test(failed) -->
+</suite> <!-- Failed suite [REgressionSuite] -->

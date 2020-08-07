@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+      <class name="TestCases.TestCase1">
+        <test-method status="PASS" signature="createDB()[pri:0, instance:TestCases.TestCase1@527740a2]" name="createDB" is-config="true" duration-ms="17" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDB -->
+        <test-method status="PASS" signature="Launchbrowser()[pri:0, instance:TestCases.TestCase1@527740a2]" name="Launchbrowser" is-config="true" duration-ms="0" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method status="PASS" signature="doUserRegister()[pri:-1, instance:TestCases.TestCase1@527740a2]" name="doUserRegister" duration-ms="5" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:TestCases.TestCase1@527740a2]" name="Closebrowser" is-config="true" duration-ms="0" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+        <test-method status="PASS" signature="Launchbrowser()[pri:0, instance:TestCases.TestCase1@527740a2]" name="Launchbrowser" is-config="true" duration-ms="0" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:TestCases.TestCase1@527740a2]" name="doLogin" duration-ms="2" started-at="2019-09-14T18:05:12 PDT" depends-on-methods="TestCases.TestCase1.doUserRegister" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:TestCases.TestCase1@527740a2]" name="Closebrowser" is-config="true" duration-ms="0" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+        <test-method status="PASS" signature="Launchbrowser()[pri:0, instance:TestCases.TestCase1@527740a2]" name="Launchbrowser" is-config="true" duration-ms="0" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method status="PASS" signature="thirdTest()[pri:0, instance:TestCases.TestCase1@527740a2]" name="thirdTest" duration-ms="2" started-at="2019-09-14T18:05:12 PDT" depends-on-methods="TestCases.TestCase1.doUserRegister" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:TestCases.TestCase1@527740a2]" name="Closebrowser" is-config="true" duration-ms="0" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+        <test-method status="PASS" signature="closeDB()[pri:0, instance:TestCases.TestCase1@527740a2]" name="closeDB" is-config="true" duration-ms="0" started-at="2019-09-14T18:05:12 PDT" finished-at="2019-09-14T18:05:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- TestCases.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
