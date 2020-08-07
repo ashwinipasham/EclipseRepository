@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24715" started-at="2020-02-29T20:18:30 PST" finished-at="2020-02-29T20:18:55 PST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24715" started-at="2020-02-29T20:18:30 PST" finished-at="2020-02-29T20:18:55 PST">
+      <class name="testcases.BaseTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.BaseTest@6321e813]" name="setUp" is-config="true" duration-ms="12253" started-at="2020-02-29T20:18:30 PST" finished-at="2020-02-29T20:18:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testChromeBrowser()[pri:1, instance:testcases.BaseTest@6321e813]" name="testChromeBrowser" duration-ms="1332" started-at="2020-02-29T20:18:43 PST" finished-at="2020-02-29T20:18:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChromeBrowser -->
+        <test-method status="PASS" signature="testFirefoxbrowser()[pri:2, instance:testcases.BaseTest@6321e813]" name="testFirefoxbrowser" duration-ms="1398" started-at="2020-02-29T20:18:44 PST" finished-at="2020-02-29T20:18:45 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirefoxbrowser -->
+        <test-method status="PASS" signature="testIEbrowser()[pri:3, instance:testcases.BaseTest@6321e813]" name="testIEbrowser" duration-ms="1704" started-at="2020-02-29T20:18:45 PST" finished-at="2020-02-29T20:18:47 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIEbrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.BaseTest@6321e813]" name="tearDown" is-config="true" duration-ms="7969" started-at="2020-02-29T20:18:47 PST" finished-at="2020-02-29T20:18:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
